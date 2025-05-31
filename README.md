@@ -46,7 +46,7 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-# 4. Streamlitアプリを起動
+### 4. Streamlitアプリを起動
 ```
 streamlit run main.py
 ```

@@ -37,7 +37,7 @@ Streamlit_ML_Preprocessing/
 
 
 
-### 1. リポジトリをクローン（事前に新規ディレクトリを指定の上で実行）
+### 1. リポジトリをクローン
 ```
 git clone https://github.com/pomeshiba29/Streamlit_ML_Preprocessing.git
 cd Streamlit_ML_Preprocessing

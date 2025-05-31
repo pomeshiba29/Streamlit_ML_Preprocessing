@@ -16,23 +16,32 @@ Streamlitによる機械学習の前処理（データ加工）ツール
 - Plotly
 - scikit-learn
 
-## 📁 ディレクトリ構成
-STREAMLIT_Preprocessing/
-├── main.py # ホーム画面（csvアップロード、目的変数指定など）
+## 📁 フォルダ構成（説明付きで親切に）
+Streamlit_ML_Preprocessing/
+├── main.py                # アプリの起点。CSVアップロードや画面遷移を管理
 ├── pages/
-│ ├── transform.py # データ型変換ページ
-│ └── stats.py # 統計量・相関可視化ページ
-└── requirements.txt # 必要なパッケージ一覧
+│   ├── transform.py       # データ型の変換・欠損値補完ページ
+│   └── stats.py           # 統計量・ヒートマップ表示ページ
+├── requirements.txt       # インストールすべきパッケージ一覧
+├── .gitignore             # venvなどを除外
+└── README.md              # 使い方・目的のドキュメント
 
+## 🧭 手順まとめ（コピペOK）
+```
+# 1. リポジトリをクローン
+git clone https://github.com/pomeshiba29/Streamlit_ML_Preprocessing.git
+cd Streamlit_ML_Preprocessing
 
-## 🚀 使い方
-```bash
-# 仮想環境の作成
+# 2. 仮想環境を作成（推奨）
 python -m venv venv
-source venv/bin/activate  # Windowsなら venv\Scripts\activate
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
 
-# パッケージのインストール
+# 3. 必要なライブラリをインストール
 pip install -r requirements.txt
 
-# アプリの起動
+# 4. Streamlitアプリを起動
 streamlit run main.py
+

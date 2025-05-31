@@ -28,20 +28,25 @@ Streamlit_ML_Preprocessing/
 └── README.md              # 使い方・目的のドキュメント
 ```
 ## 🧭 手順まとめ（コピペOK）
-```
+
 # 1. リポジトリをクローン
+```
 git clone https://github.com/pomeshiba29/Streamlit_ML_Preprocessing.git
 cd Streamlit_ML_Preprocessing
-
+```
 # 2. 仮想環境を作成（推奨）
+```
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
-
+```
 # 3. 必要なライブラリをインストール
+```
 pip install -r requirements.txt
-
+```
 # 4. Streamlitアプリを起動
+```
 streamlit run main.py
+```

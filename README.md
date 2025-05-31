@@ -58,3 +58,15 @@ pip install -r requirements.txt
 ```
 streamlit run main.py
 ```
+
+### 2回目以降の実施
+・ターミナルにて以下を実行
+```
+cd クローン先のディレクトリ
+
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+streamlit run main.py

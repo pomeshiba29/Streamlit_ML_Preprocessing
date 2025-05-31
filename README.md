@@ -28,8 +28,10 @@ Streamlit_ML_Preprocessing/
 └── README.md              # 使い方・目的のドキュメント
 ```
 ## 🧭 手順まとめ（コピペOK）
+### 0. 前提事項
+![image](https://github.com/user-attachments/assets/80f4b807-e7dc-4cdf-a5f8-8b628f8be778)
 
-### 1. リポジトリをクローン
+### 1. リポジトリをクローン（事前に新規ディレクトリを指定の上で実行）
 ```
 git clone https://github.com/pomeshiba29/Streamlit_ML_Preprocessing.git
 cd Streamlit_ML_Preprocessing
